@@ -4,5 +4,5 @@ Rails.application.routes.draw do
   resources :history, only: [:index]
   resources :impressum, only: [:index]
   resources :news, only: [:index, :show]
-  resources :welcome, only: [:index]
+  resources :start, only: [:index]
 end

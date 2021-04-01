@@ -1,2 +1,32 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<head>
+<%= render 'navbar'%>
+</head>
+
+<body>
+  <div class="container main">
+    <%= render 'slide.show'%>
+    <div class="container-icon d-flex justify-content-center">
+      <img src="https://res.cloudinary.com/titavon/image/upload/v1617299288/stheinrich_icon_2_ap7jrx.png">
+    </div>
+    <div class="container-start d-flex justify-content-center">
+      <p>Der St.-Heinrich-Orden ist von seiner Gründung an eng mit Sachsen und mit der sächsischen Geschichte verbunden. 
+        Seit der Stiftung durch Churfürst Friedrich August II. von Sachsen und zugleich König August III. von Polen und Grossfürst von
+        Litauen am 7. Oktober 1736 durchlebte der Orden bis heute verschiedene Ausrichtungen, 
+        die ihn vom militärischen Orden zu einer für Nachhaltigkeit und Werteorientierung eintretenden Institution wachsen ließen. 
+        Der Sitz des Ordens ist Bamberg - verbunden mit der Grablege des Namensgebers Kaiser Heinrich II. im Dom zu Bamberg. 
+        Aber auch mit der Landeshauptstadt Dresden spannt der Orden eine Brücke zwischen den Bundesländern Bayern und Sachsen.</p>
+    </div>
+    <div class="footer-container d-flex justify-content-center">
+      <img class="footer" src="https://res.cloudinary.com/titavon/image/upload/v1617297615/fusslinie_xllawq.png">
+    </div>
+    <div class="footer-title-container d-flex justify-content-center">
+      <img class="footer-title" src="https://res.cloudinary.com/titavon/image/upload/v1617297982/stheinrich_down1_gqzbqn.png">
+    </div>
+    <div class="footer-text-container d-flex justify-content-center">
+      <p>Schloßstr. 1a · D-04668 Grimma · Tel:  03437/ 917121 · Fax: 03437/ 942459</p>
+    </div>
+    <div class="footer-text-container1 d-flex justify-content-center">
+      <p>E-Mail: info@st-heinrichs-orden.von-sachsen.eu</p>
+    </div>
+  </div>
+</body>

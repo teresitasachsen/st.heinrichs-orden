@@ -1,0 +1,30 @@
+<div class="container-logo">
+  <img class="logo" src="https://res.cloudinary.com/titavon/image/upload/v1616772568/bg_grau_odhi_pnsftg.jpg">
+</div>
+<!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #003157">
+    <!--<a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>-->
+    <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
+      <ul class="navbar-nav d-flex justify-content-center">
+        <li class="nav-item active">
+          <a class="nav-link" href="#"><%= link_to "Home", root_path%> <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"><%= link_to "Einführung", start_index_path%></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"><%= link_to "News", news_index_path%></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"><%= link_to "History", history_index_path%></a>
+        </li>
+        <li class="nav-item contact">
+          <a class="nav-link"><%= link_to "Impressum", impressum_index_path%></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+<!--end-->
