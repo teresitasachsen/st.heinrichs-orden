@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   resources :impressum, only: [:index]
   resources :news, only: [:index, :show]
   resources :start, only: [:index]
+  resources :heinrich, only: [:index]
 end
