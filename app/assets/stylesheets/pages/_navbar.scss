@@ -21,6 +21,11 @@ a {
     color: rgb(224, 223, 223);
 }
 
-a:hover {
+//.nav-link {
+//    position: absolute;
+//}
+
+a:hover, a:active {
     color: rgb(224, 223, 223);
+    text-decoration: underline;
 }
