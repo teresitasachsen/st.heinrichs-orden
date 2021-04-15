@@ -1,6 +1,6 @@
 function magnify(imgID, zoom) {
     var img, glass, w, h, bw;
-    img = document.getElementById("hn1");
+    img = document.getElementById(imgID);
   
     /* Create magnifier glass: */
     glass = document.createElement("DIV");
@@ -20,7 +20,8 @@ function magnify(imgID, zoom) {
     /* Execute a function when someone moves the magnifier glass over the image: */
     glass.addEventListener("mousemove", moveMagnifier);
     img.addEventListener("mousemove", moveMagnifier);
-  
+    img.addEventListener("mouseleave", hideMag);
+    img.addEventListener("mouseenter", showMag);
     /*and also for touch screens:*/
     glass.addEventListener("touchmove", moveMagnifier);
     img.addEventListener("touchmove", moveMagnifier);
@@ -57,8 +58,13 @@ function magnify(imgID, zoom) {
       y = y - window.pageYOffset;
       return {x : x, y : y};
     }
+    function hideMag(e) {
+      glass.style.visibility = 'hidden';
+    };
+    function showMag(e) {
+      glass.style.visibility = 'visible';
+    }
   }
 
-/* Initiate Magnify Function
-with the id of the image, and the strength of the magnifier glass:*/
+export { magnify };
 
