@@ -1,4 +1,22 @@
 // Specific CSS for your home-page
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+p:hover {
+    cursor: text;
+}
+
+h2, h3, h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
 .container-logo {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -11,13 +29,11 @@
     width: 25%;
 }
 
-.carousel-inner {
-    padding-top: 15px !important;
-}
-
 .rounded {
     height: 200px;
-    width: 250px;
+    width:250px;
+    object-fit:cover;
+    object-position:50% 29%;
     margin-top: 40px;
 }
 
@@ -34,22 +50,16 @@
     text-align: center;
 }
 
-h2, h3, h4 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: black;
+.entree h3 {
+    color: #AE1F33;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .container-start {
     padding-left: 300px;
     padding-right: 300px;
+    padding-bottom: 60px;
     text-align: center;
-}
-
-.container-icon {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
