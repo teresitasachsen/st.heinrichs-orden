@@ -2,37 +2,13 @@
 .container-logo {
     margin-top: 10px;
     margin-bottom: 10px;
+    background-color: #F7F7F7;
 }
 .logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 25%;
-}
-
-.navbar {
-    height: 35px
-}
-
-.navbar-nav {
-    padding-bottom: 15px;
-}
-
-.nav-item {
-    padding-right: 124px;
-}
-
-.contact {
-    padding-right: 0px;
-}
-
-#MainBackground {
-    background-color: #001E42;
-}
-
-#MainBackground {
-    margin-top: 15px;
-    margin-bottom: 15px;
 }
 
 .carousel-inner {
@@ -53,36 +29,27 @@
     margin-right: 60px;
 }
 
-h2 {
+.events-title {
     margin-top: 50px;
     text-align: center;
+}
+
+h2, h3, h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
 }
-
-//.line-left {
-//    top: 729px;
-//    left: 205px;
-//    position: absolute;
-//}
-//
-//.line-right {
-//    top: 729px;
-//    right: 205px;
-//    position: absolute;
-//}
-
-.Round-Picture {
-    height: 400px;
-    width: 400px;
-    border-radius: 50%;
-}
-
-//.main {
-//    margin-left: 100px;
-//    margin-right: 100px;
-//}
 
 .container-start {
     padding-left: 300px;
     padding-right: 300px;
+    text-align: center;
+}
+
+.container-icon {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
