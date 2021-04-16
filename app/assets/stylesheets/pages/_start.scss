@@ -1,3 +1,8 @@
+.container-all {
+    position: relative;
+    top: -200px;
+}
+
 .text {
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-left: 100px;
@@ -7,9 +12,16 @@
 }
 
 .container-alexander {
-    padding-top: 40px;
-    width:100%;
-    height:350px;
-    object-fit:cover;
-    object-position:50% 50%;
+    /*position: relative;
+    right: 353px;
+    top: 291px;*/
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.alexander {
+    border-radius: 5px;
+    margin-top: 20px;
 }
