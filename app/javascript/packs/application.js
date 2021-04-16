@@ -32,5 +32,6 @@ document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
   // initSelect2();
   magnify("hn1", 2);
+  magnify("hn2", 2);
 });
 
