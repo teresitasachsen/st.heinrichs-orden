@@ -1,6 +1,10 @@
 // Specific CSS for your home-page
+body {
+    background-color: white;
+}
+
 p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: lighter;
     font-size: 15px;
     line-height: 24px;
@@ -11,23 +15,11 @@ p:hover {
 }
 
 h2, h3, h4, h5 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     color: #AE1F33;
     font-weight: bold;
     line-height: 28px;
-}
-
-.container-logo {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: #F7F7F7;
-}
-.logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;
 }
 
 .rounded {
@@ -63,4 +55,15 @@ h2, h3, h4, h5 {
     padding-right: 300px;
     padding-bottom: 60px;
     text-align: center;
+}
+
+.burg-img {
+    width:100%;
+    height:800px;
+    object-fit:cover;
+    object-position:50% 0%;
+}
+
+.burg {
+    background-color: black;
 }
